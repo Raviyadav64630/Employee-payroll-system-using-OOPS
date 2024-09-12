@@ -7,5 +7,7 @@ WORKDIR /app
 # Copy the JAR file into the container
 COPY employee-payroll-system.jar /app/
 
+EXPOSE 8000
+
 # Specify the command to run the JAR file
 CMD ["java", "-jar", "employee-payroll-system.jar"]
