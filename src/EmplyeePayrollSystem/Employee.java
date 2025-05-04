@@ -2,6 +2,8 @@ package EmplyeePayrollSystem;
 //we have used access modifiers and abstraction
 
 abstract public class Employee {
+
+    
     private String name;
     private int id;
     public Employee(String name, int id){//we made parametrized constructor whenever constructor calls then name and id will assign to these variables
